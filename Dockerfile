@@ -8,4 +8,4 @@ WORKDIR /harvey
 
 ADD ./harvey/ /harvey/
 
-CMD go version
+CMD go run harvey.go
