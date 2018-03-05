@@ -1,0 +1,20 @@
+---
+script: JiraTickets
+interval: 1
+settings:
+  open_bugs: "Open bugs"
+---
+script: PlayStore
+interval: 2
+settings:
+  vikingapp_android: "com.vikingco.vikingapp"
+---
+script: AppStore
+interval: 2
+settings:
+  vikingapp_ios: "viking-app/id893916390"
+---
+script: Crashlytics
+interval: 30
+settings:
+  vikingapp_ios: "534bd81994eee1f9ee00038a|5388aa88e3de5099ba465c87"

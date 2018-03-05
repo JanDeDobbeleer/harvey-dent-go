@@ -1,0 +1,6 @@
+version: '2'
+services:
+  harvey:
+    build: .
+    env_file:
+      - settings/harvey.env
